@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>TITAN ELITE | Professional Fitness Performance</title>
+    <meta name="description" content="The elite destination for high-performance training. Join TITAN ELITE for expert coaching, advanced equipment, and real results.">
+    <!-- Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <!-- Custom Cursor (Desktop only) -->
+    <div class="cursor-glow"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">TITAN<span>ELITE</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" class="active">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="trainers.html">TRAINERS</a>
+                <a href="programs.html">PROGRAMS</a>
+                <a href="#membership">MEMBERSHIP</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="#membership" class="nav-cta-desktop">JOIN NOW</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <section class="hero" id="hero">
+        <video autoplay muted loop playsinline preload="metadata" controlsList="nodownload" disablePictureInPicture class="hero-video" poster="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop">
+            <source src="gyme.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content container">
+            <span class="hero-badge reveal-up">THE ELITE STANDARD</span>
+            <h1 class="reveal-up delay-1">UNLEASH YOUR <br><span class="text-accent">POTENTIAL</span></h1>
+            <p class="reveal-up delay-2">Dhaka's premier high-performance facility. Designed for those who demand absolute excellence.</p>
+            <div class="hero-btns reveal-up delay-3">
+                <a href="membership.html" class="btn btn-primary">SELECT YOUR PASS</a>
+                <a href="programs.html" class="btn btn-outline">EXPLORE PROGRAMS</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+
+    <!-- 2. Why Choose Us Section (Replaced Transformation Video) -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">WHY <span class="text-accent">TITAN ELITE?</span></h2>
+                <p class="section-subtitle">We don't just provide equipment; we provide the blueprint for your evolution.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card reveal-up delay-1">
+                    <div class="feature-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <h3>ELITE EQUIPMENT</h3>
+                    <p>Access 20,000 sq ft of premium gear from Hammer Strength, Eleiko, and Rogue.</p>
+                </div>
+                <div class="feature-card reveal-up delay-2">
+                    <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+                    <h3>EXPERT COACHING</h3>
+                    <p>Our trainers are certified specialists with years of experience in high-performance sports.</p>
+                </div>
+                <div class="feature-card reveal-up delay-3">
+                    <div class="feature-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>24/7 ACCESS</h3>
+                    <p>Your goals don't sleep. Train whenever you want with our round-the-clock secure access.</p>
+                </div>
+                <div class="feature-card reveal-up delay-4">
+                    <div class="feature-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>RECOVERY SUITE</h3>
+                    <p>Featuring infrared saunas, cryotherapy, and professional physiotherapy services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Dashboard Removed -->
+
+
+    <!-- 3. Programs Preview -->
+    <section class="programs-preview" id="programs">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">TRAINING <span class="text-accent">PROTOCOLS</span></h2>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card reveal-up delay-1">
+                    <div class="program-img">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" alt="Strength Training">
+                    </div>
+                    <div class="program-body">
+                        <h3>STRENGTH & POWER</h3>
+                        <p>Master the fundamental movements and build raw power with our powerlifting focus.</p>
+                        <a href="programs.html" class="link-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card reveal-up delay-2 active">
+                    <div class="program-img">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=2070&auto=format&fit=crop" alt="Body Recomposition">
+                    </div>
+                    <div class="program-body">
+                        <h3>BODY RECOMP</h3>
+                        <p>Science-backed programs designed to shed fat while maximizing muscle hypertrophy.</p>
+                        <a href="programs.html" class="link-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card reveal-up delay-3">
+                    <div class="program-img">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1526506114642-54bc0f5076cf?q=80&w=2070&auto=format&fit=crop" alt="Athletic Performance">
+                    </div>
+                    <div class="program-body">
+                        <h3>ATHLETIC ELITE</h3>
+                        <p>Improve your speed, agility, and explosive power for peak competitive performance.</p>
+                        <a href="programs.html" class="link-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card reveal-up delay-4">
+                    <div class="program-img">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2070&auto=format&fit=crop" alt="Nutrition Coaching">
+                    </div>
+                    <div class="program-body">
+                        <h3>ELITE NUTRITION</h3>
+                        <p>Precision fuel plans designed by our expert nutritionists to optimize your results.</p>
+                        <a href="programs.html" class="link-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card reveal-up delay-5">
+                    <div class="program-img">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=2070&auto=format&fit=crop" alt="Combat Sports">
+                    </div>
+                    <div class="program-body">
+                        <h3>COMBAT PRO</h3>
+                        <p>High-intensity boxing and MMA conditioning to sharpen your mind and body.</p>
+                        <a href="programs.html" class="link-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="program-card reveal-up delay-6">
+                    <div class="program-img">
+                        <img loading="lazy" src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=2070&auto=format&fit=crop" alt="Recovery Suite">
+                    </div>
+                    <div class="program-body">
+                        <h3>RECOVERY ELITE</h3>
+                        <p>Cryotherapy, saunas, and sport massage to ensure you recover as hard as you train.</p>
+                        <a href="programs.html" class="link-btn">LEARN MORE <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+    </section>
+    
+    <!-- BRAND NEW: Premium Membership Section -->
+    <section class="membership-section section-padding" id="membership">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">MEMBERSHIP <span class="text-accent">PACKAGES</span></h2>
+                <p class="section-subtitle">Choose the plan that fits your fitness journey</p>
+            </div>
+
+            <div class="membership-grid">
+                <div class="membership-card reveal-up delay-1">
+                    <div class="card-header">
+                        <h3>SILVER</h3>
+                        <div class="price">
+                            <span class="currency">৳</span>
+                            <span class="amount">7,500</span>
+                            <span class="duration">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited gym access</li>
+                        <li><i class="fa-solid fa-check"></i> 1 class per week</li>
+                        <li><i class="fa-solid fa-check"></i> Standard locker rooms</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">SELECT SILVER</a>
+                </div>
+
+                <div class="membership-card featured reveal-up delay-2">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="card-header">
+                        <h3>GOLD</h3>
+                        <div class="price">
+                            <span class="currency">৳</span>
+                            <span class="amount">11,000</span>
+                            <span class="duration">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited gym access</li>
+                        <li><i class="fa-solid fa-check"></i> 3 sessions per week</li>
+                        <li><i class="fa-solid fa-check"></i> 1 PT session / mo</li>
+                        <li><i class="fa-solid fa-check"></i> Free health assessment</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-primary">GO GOLD</a>
+                </div>
+
+                <div class="membership-card reveal-up delay-3">
+                    <div class="card-header">
+                        <h3>PLATINUM</h3>
+                        <div class="price">
+                            <span class="currency">৳</span>
+                            <span class="amount">15,000</span>
+                            <span class="duration">/mo</span>
+                        </div>
+                    </div>
+                    <ul class="features">
+                        <li><i class="fa-solid fa-check"></i> Unlimited gym access</li>
+                        <li><i class="fa-solid fa-check"></i> 2 PT sessions / mo</li>
+                        <li><i class="fa-solid fa-check"></i> Full medical check</li>
+                        <li><i class="fa-solid fa-check"></i> 10% Off equipment</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">GET PLATINUM</a>
+                </div>
+            </div>
+
+            <!-- Additional Row (Individual & PT) -->
+            <div class="additional-row reveal-up delay-4">
+                <div class="add-col">
+                    <h3>INDIVIDUAL CLASSES</h3>
+                    <div class="add-item">
+                        <span>Yoga & Pilates</span>
+                        <span class="text-accent">৳ 1,800 / session</span>
+                    </div>
+                    <div class="add-item">
+                        <span>Spin Class</span>
+                        <span class="text-accent">৳ 2,200 / session</span>
+                    </div>
+                </div>
+                <div class="add-col">
+                    <h3>PERSONAL TRAINING</h3>
+                    <div class="add-item">
+                        <span>Buddy Training</span>
+                        <span class="text-accent">৳ 9,000 / hour</span>
+                    </div>
+                    <div class="add-item">
+                        <span>One-on-One Session</span>
+                        <span class="text-accent">৳ 6,000 / hour</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Banner -->
+    <section class="promo-banner reveal-up">
+        <div class="container promo-inner">
+            <div class="promo-box">
+                <div class="icon-box"><i class="fa-solid fa-calendar-check"></i></div>
+                <div class="promo-text">
+                    <h3>FREE WEEK TRIAL</h3>
+                    <p>Sign up before August 31 and get <span class="text-accent">20% OFF</span> your first three months of Platinum membership.</p>
+                </div>
+            </div>
+            <div class="promo-divider"></div>
+            <div class="promo-box">
+                <div class="icon-box"><i class="fa-solid fa-people-group"></i></div>
+                <div class="promo-text">
+                    <h3>REFER A FRIEND</h3>
+                    <p>New members receive a <span class="text-accent">1-WEEK FREE</span> unlimited gym trial. Elite growth happens together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Trainers Preview -->
+    <section class="trainers-preview" id="trainers">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title">THE <span class="text-accent">COACHES</span></h2>
+                <p class="section-subtitle">Work with the best in the industry.</p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card reveal-up delay-1" onclick="openTrainerModal(1)">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=2070&auto=format&fit=crop" alt="Viktor Kane">
+                    <div class="trainer-info">
+                        <h3>VIKTOR KANE</h3>
+                        <p>Head Strength Coach</p>
+                        <div class="trainer-socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card reveal-up delay-2" onclick="openTrainerModal(2)">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2070&auto=format&fit=crop" alt="Sarah Vance">
+                    <div class="trainer-info">
+                        <h3>SARAH VANCE</h3>
+                        <p>Nutrition Specialist</p>
+                        <div class="trainer-socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center reveal-up delay-3" style="margin-top: 40px;">
+                <a href="trainers.html" class="btn btn-outline">MEET ALL TRAINERS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Trainer Details (Dynamic) -->
+    <div class="modal" id="trainerModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. CTA Section -->
+    <section class="cta-section reveal-up" id="contact">
+        <div class="container">
+            <div class="cta-inner">
+                <h2>START YOUR <span class="text-accent">JOURNEY</span></h2>
+                <p>Register for a complimentary assessment and tour of our facility today.</p>
+                <form class="cta-form">
+                    <input type="text" placeholder="YOUR NAME" required>
+                    <input type="email" placeholder="YOUR EMAIL" required>
+                    <button type="submit" class="btn btn-primary">BOOK TRIAL</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-info">
+                    <a href="index.html" class="logo">TITAN<span>ELITE</span></a>
+                    <p>Defining the elite standard of human performance in Dhaka.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-group">
+                    <h4>NAVIGATE</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="trainers.html">Trainers</a>
+                </div>
+                <div class="footer-links-group">
+                    <h4>PROGRAMS</h4>
+                    <a href="programs.html">Strength</a>
+                    <a href="programs.html">Nutrition</a>
+                    <a href="membership.html">Membership</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TITAN ELITE. ALL RIGHTS RESERVED.</p>
+                <a href="contact.html">CONTACT US</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

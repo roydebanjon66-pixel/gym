@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR TRAINERS | TITAN ELITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">TITAN<span>ELITE</span></a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="trainers.html" class="active">TRAINERS</a>
+                <a href="programs.html">PROGRAMS</a>
+                <a href="membership.html">MEMBERSHIP</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="membership.html" class="nav-cta-desktop">JOIN NOW</a>
+            </div>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero" style="height: 50vh;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="reveal-up active">THE <span class="text-accent">ENFORCERS</span></h1>
+            <p class="reveal-up active delay-1">World-class technicians dedicated to your physical evolution.</p>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="trainers-grid">
+                <div class="trainer-card reveal-up" onclick="openTrainerModal(1)">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1594381898411-846e7d193883?q=80&w=2070&auto=format&fit=crop" alt="Viktor Kane">
+                    <div class="trainer-info">
+                        <h3>VIKTOR KANE</h3>
+                        <p>Head Strength Coach</p>
+                        <div class="trainer-socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card reveal-up delay-1" onclick="openTrainerModal(2)">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2070&auto=format&fit=crop" alt="Sarah Vance">
+                    <div class="trainer-info">
+                        <h3>SARAH VANCE</h3>
+                        <p>Nutrition Specialist</p>
+                        <div class="trainer-socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card reveal-up delay-2" onclick="openTrainerModal(3)">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1567013127596-14098816c23b?q=80&w=2070&auto=format&fit=crop" alt="Marcus Steel">
+                    <div class="trainer-info">
+                        <h3>MARCUS STEEL</h3>
+                        <p>Conditioning Lead</p>
+                        <div class="trainer-socials">
+                            <i class="fa-brands fa-x-twitter"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card reveal-up delay-3" onclick="openTrainerModal(4)">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=2070&auto=format&fit=crop" alt="Elara Voss">
+                    <div class="trainer-info">
+                        <h3>ELARA VOSS</h3>
+                        <p>Yoga & Mobility</p>
+                        <div class="trainer-socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card reveal-up delay-4" onclick="openTrainerModal(5)">
+                    <img loading="lazy" src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?q=80&w=2070&auto=format&fit=crop" alt="Jaxon Reed">
+                    <div class="trainer-info">
+                        <h3>JAXON REED</h3>
+                        <p>Combat Specialist</p>
+                        <div class="trainer-socials">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Trainer Details -->
+    <div class="modal" id="trainerModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Content injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2026 TITAN ELITE. ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
